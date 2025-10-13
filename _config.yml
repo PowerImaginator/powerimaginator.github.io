@@ -2,6 +2,7 @@ title: PowerImaginator
 description: PowerImaginator generates immersive 3D scenes from text prompts.
 theme: just-the-docs
 color_scheme: dark
+favicon_ico: /assets/img/favicon.png
 
 url: https://powerimaginator.github.io
 
