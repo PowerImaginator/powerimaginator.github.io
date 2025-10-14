@@ -1,10 +1,16 @@
 title: PowerImaginator
 description: PowerImaginator generates immersive 3D scenes from text prompts.
+favicon_ico: /assets/img/favicon.png
+url: https://www.powerimaginator.com
+social:
+  name: PowerImaginator
+  links:
+    - https://www.github.com/PowerImaginator
+twitter:
+  card: summary_large_image
+
 theme: just-the-docs
 color_scheme: dark
-favicon_ico: /assets/img/favicon.png
-
-url: https://powerimaginator.github.io
 
 aux_links:
   Discord: https://discord.gg/Vk3Wh5ZQYD
