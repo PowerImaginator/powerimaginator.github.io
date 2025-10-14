@@ -50,7 +50,7 @@ If you want to run PowerImaginator on Modal, follow these instructions:
 
 ## Install the client app
 
-Whew! You're almost finished 😄
+Whew! You're almost finished 🤩
 
 Go to the [powerimaginatorclient GitHub Releases page](https://github.com/PowerImaginator/powerimaginatorclient/releases) and download the top `.zip` archive (Windows) or `.dmg` bundle (macOS). Simply extract the ZIP file (Windows) or double-click the DMG (macOS) and drag PowerImaginator to the Applications folder.
 
@@ -58,11 +58,14 @@ Go to the [powerimaginatorclient GitHub Releases page](https://github.com/PowerI
 
 When opening the client app, you'll see a warning that the app has not been reviewed by Apple. This is normal (we don't pay $99 every year to join their developer program) - simply follow [these instructions](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac) to allow it to run. ***Important**: please make sure you only download PowerImaginator from its [official GitHub Releases page](https://github.com/PowerImaginator/powerimaginatorclient/releases) to avoid malware on other sites.*
 
-# Congratulations!
+# Congratulations! 🎉
 
 You're now ready to create 3D scenes with PowerImaginator! Simply launch the client app on your device, enter your server credentials, and click **Connect**.
 
 - If you set up a local server, leave the Server URL as `http://localhost:8000`, and then enter the API token you assigned to the `POWERIMAGINATOR_API_TOKENS` variable.
 - If you set up a cloud server, set the Server URL to the URL you noted in the final step (e.g. `https://your_username--powerimaginatorserver-entry.modal.run`) and enter the API token you assigned to the `POWERIMAGINATOR_API_TOKENS` variable when creating the secret.
+
+If you enter the wrong URL or token, PowerImaginator will simply crash and exit. We will add proper error handling in the future, but for now, try checking the server-side output in your Python console or Modal logs to see if the client is able to initiate a connection.
+{: .warning }
 
 Enjoy, and please chat with us on [Discord](https://discord.gg/Vk3Wh5ZQYD) or try hacking the source code from [GitHub](https://github.com/PowerImaginator)! If this is your first time using PowerImaginator, check out the video on our [home page](/) for a quick tutorial.

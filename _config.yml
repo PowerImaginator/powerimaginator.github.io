@@ -9,3 +9,12 @@ url: https://powerimaginator.github.io
 aux_links:
   Discord: https://discord.gg/Vk3Wh5ZQYD
   GitHub: https://github.com/PowerImaginator
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+
+  note:
+    title: Note
+    color: green
