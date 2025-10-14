@@ -13,7 +13,7 @@ PowerImaginator brings your ideas from text to (virtual) reality in immersive, i
 
 [Get started now](getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-<video src="assets/video/demo.mp4" controls playsinline muted preload="metadata" style="width: 100%"></video>
+<video src="assets/video/demo.mp4" controls muted preload="auto" style="width: 100%; background-color: #000;"></video>
 
 PowerImaginator is still an early-stage research prototype. Expect broken and low-quality output. We are working continuously to improve PowerImaginator until it is a state-of-the-art 3D scene generation system.
 {: .warning }
